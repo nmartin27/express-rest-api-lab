@@ -41,6 +41,13 @@ app.put("/yogurts/:yogurtId", async (req, res) => {
   res.json(updateYogurt);
 });
 
+// app.get('/'. async (req, res) => {
+//     const apiResponse = await fetch (`http://localhost:3000/`)
+//     const data = await apiResponse.json(
+//         res.json(data)
+//     )
+// })
+
 app.listen(3000, () => {
   console.log("The express app is ready!");
 });
